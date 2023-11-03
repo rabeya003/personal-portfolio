@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Project 1",
+      "img": "https://example.com/project1.jpg",
+      "live-Link": "https://example.com/project1-live",
+      "repo-link": "https://github.com/project1"
+    },
+    {
+      "title": "Project 2",
+      "img": "https://example.com/project2.jpg",
+      "live-Link": "https://example.com/project2-live",
+      "repo-link": "https://github.com/project2"
+    },
+    {
+      "title": "Project 3",
+      "img": "https://example.com/project3.jpg",
+      "live-Link": "https://example.com/project3-live",
+      "repo-link": "https://github.com/project3"
+    },
+    {
+      "title": "Project 4",
+      "img": "https://example.com/project4.jpg",
+      "live-Link": "https://example.com/project4-live",
+      "repo-link": "https://github.com/project4"
+    }
+  ]
