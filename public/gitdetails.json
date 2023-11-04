@@ -1,26 +1,30 @@
 [
     {
-      "title": "Project 1",
-      "img": "https://example.com/project1.jpg",
-      "live-Link": "https://example.com/project1-live",
-      "repo-link": "https://github.com/project1"
+      "id":1,
+      "title": "Ema-John-Shopping-app",
+      "img": "https://i.ibb.co/dj9Vrmp/Screenshot-2023-11-04-031053.png",
+      "liveLink": "https://ema-john-simple-sigma.vercel.app/",
+      "repoLink": "https://github.com/rabeya003/Ema-John-Shopping-app"
     },
     {
-      "title": "Project 2",
-      "img": "https://example.com/project2.jpg",
-      "live-Link": "https://example.com/project2-live",
-      "repo-link": "https://github.com/project2"
+      "id":2,
+      "title": "Phone-Hunter",
+      "img": "https://i.ibb.co/PNkXZLt/Screenshot-2023-11-04-031358.png",
+      "liveLink": "https://rabeya003.github.io/Phone-Hunter/",
+      "repoLink": "https://github.com/rabeya003/Phone-Hunter"
     },
     {
-      "title": "Project 3",
-      "img": "https://example.com/project3.jpg",
-      "live-Link": "https://example.com/project3-live",
-      "repo-link": "https://github.com/project3"
+      "id":3,
+      "title": "Weather-forecast",
+      "img": "https://i.ibb.co/MPrkrjr/Screenshot-2023-11-04-031709.png",
+      "liveLink": "https://rabeya003.github.io/Weather-forecast/",
+      "repoLink": "https://github.com/rabeya003/Weather-forecast"
     },
     {
-      "title": "Project 4",
-      "img": "https://example.com/project4.jpg",
-      "live-Link": "https://example.com/project4-live",
-      "repo-link": "https://github.com/project4"
+      "id":4,
+      "title": "EdTech-website",
+      "img": "https://i.ibb.co/WPnx6H1/Screenshot-2023-11-04-032228.png",
+      "liveLink": "https://rabeya003.github.io/EdTech-website/",
+      "repoLink": "https://github.com/rabeya003/EdTech-website"
     }
   ]

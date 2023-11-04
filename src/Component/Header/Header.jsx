@@ -1,3 +1,4 @@
+import ProjectLink from "../ProjectsLink/ProjectsLink";
 const Header = () => {
   const navber = (
     <div>
@@ -52,10 +53,12 @@ const Header = () => {
       <div className="gap-4 navbar-end hidden lg:flex">
         <ul className="  menu-horizontal px-1">
           <li className="hover:bg-slate-800 mx-4 p-2 rounded-md  hover:text-white text-white bg-slate-500">
-            <a className="">Projects</a>
+            <a href="#projects" className="">
+              Projects
+            </a>
           </li>
           <li className="hover:bg-slate-800 mx-4 p-2 rounded-md  hover:text-white text-white bg-slate-500 w-20 text-center">
-            <a href="">Skils</a>
+            <a href="#skills">Skils</a>
           </li>
 
           <li className="hover:bg-slate-800 mx-4 p-2 rounded-md  hover:text-white text-white bg-slate-500">
