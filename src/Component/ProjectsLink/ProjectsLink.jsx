@@ -8,10 +8,8 @@ const ProjectsLink = () => {
       .then((data) => setProject(data));
   }, []);
   return (
-    <div id="projects">
-      <h2 className="flex justify-center text-3xl mb-12 font-bold">
-        My Projects
-      </h2>
+    <div id="projects" className="mb-12">
+      <h2 className="flex justify-center text-3xl font-bold">My Projects</h2>
       <hr />
       <div className="mt-4 px-16 grid grid-cols-2 lg:grid-cols-4 gap-6 overflow-x-scroll">
         {projects.map((project) => (
@@ -28,7 +26,7 @@ const ProjectsLink = () => {
                       Live Link
                     </a>
                   </div>
-                  <div className="badge badge-outline">
+                  <div className="badge badge-outline ">
                     <a target="_blank" href={project.repoLink}>
                       Repo Link
                     </a>

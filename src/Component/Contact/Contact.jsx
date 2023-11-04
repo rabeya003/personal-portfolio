@@ -1,4 +1,4 @@
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { AiFillFacebook, AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
 const Contact = () => {
   return (
     <div
@@ -10,10 +10,10 @@ const Contact = () => {
       </h1>
       <div className="flex gap-12 text-center justify-center">
         <div className="bg-blue-200 shadow-lg shadow-cyan-500/50 w-24  flex justify-center p-2 rounded-md ">
-          <a target="_blank" href="https://github.com/rabeya003">
+          <a target="_blank" href="https://www.facebook.com/rboshri.mou/">
             {" "}
-            <AiFillGithub className=""></AiFillGithub>
-            <p>GitHub</p>
+            <AiFillFacebook className=""></AiFillFacebook>
+            <p>FaceBook</p>
           </a>
         </div>
         <div className="bg-blue-200 shadow-lg shadow-cyan-500/50 w-24  flex justify-center p-2 rounded-md ">
@@ -23,6 +23,12 @@ const Contact = () => {
           >
             <AiFillLinkedin></AiFillLinkedin>
             <p>Linkedin</p>
+          </a>
+        </div>
+        <div className="bg-blue-200 shadow-lg shadow-cyan-500/50 w-24  flex justify-center p-2 rounded-md ">
+          <a target="_blank" href="mailto:asheq.mou@gmail.com">
+            <AiOutlineMail></AiOutlineMail>
+            <p>Email</p>
           </a>
         </div>
       </div>
