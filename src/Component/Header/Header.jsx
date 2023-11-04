@@ -62,10 +62,10 @@ const Header = () => {
           </li>
 
           <li className="hover:bg-slate-800 mx-4 p-2 rounded-md  hover:text-white text-white bg-slate-500">
-            <a>Contact Me</a>
+            <a href="#contact">Contact Me</a>
           </li>
           <li className="hover:bg-slate-800 mx-4 p-2 rounded-md  hover:text-white text-white bg-slate-500">
-            <a>About</a>
+            <a href="#about">About</a>
           </li>
         </ul>
       </div>

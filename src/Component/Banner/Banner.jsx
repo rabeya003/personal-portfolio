@@ -13,7 +13,7 @@ const Banner = () => {
   </h2>*/}
         </div>
         <div className="lg:mr-32">
-          <h1 className="text-4xl font-bold">Hello,I&apos;m Rabeya Boshri !</h1>
+          <h1 className="text-5xl font-bold">Hello,I&apos;m Rabeya Boshri !</h1>
           <p className="py-6">
             A passionate frontend developer. With a creative flair and a love
             for crafting exceptional <br></br>user experiences, I specialize in
