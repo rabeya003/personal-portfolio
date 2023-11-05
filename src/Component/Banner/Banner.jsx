@@ -1,4 +1,5 @@
 import { MdSimCardDownload } from "react-icons/md";
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 const Banner = () => {
   return (
     <div className="hero min-h-screen ">
@@ -20,12 +21,32 @@ const Banner = () => {
             building visually stunning and responsive websites.<br></br>{" "}
             Let&apos;s turn your web ideas into reality!
           </p>
-          <button className="btn btn-primary flex">
-            Download CV{" "}
-            <span>
-              <MdSimCardDownload className="text-2xl"></MdSimCardDownload>
-            </span>
-          </button>
+          <div className="flex gap-2">
+            <button className="bg-blue-200 shadow-lg shadow-cyan-500/50 w-24  flex justify-center p-2 rounded-md w-auto flex">
+              Download CV{" "}
+              <span>
+                <MdSimCardDownload className="text-2xl"></MdSimCardDownload>
+              </span>
+            </button>
+            <div className=" shadow-lg shadow-cyan-500/50 w-auto  flex justify-center p-2 rounded-lg">
+              <a
+                className="flex"
+                target="_blank"
+                href="https://www.linkedin.com/in/rabeya-boshri-mou/"
+              >
+                <AiFillLinkedin className=" text-2xl"></AiFillLinkedin>
+              </a>
+            </div>
+            <div className=" shadow-lg shadow-cyan-500/50 w-auto  flex justify-center p-2 rounded-lg">
+              <a
+                className="flex"
+                target="_blank"
+                href="https://github.com/rabeya003"
+              >
+                <AiFillGithub className=" text-2xl"></AiFillGithub>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

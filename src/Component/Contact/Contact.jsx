@@ -9,14 +9,14 @@ const Contact = () => {
         Contact Me
       </h1>
       <div className="flex gap-12 text-center justify-center">
-        <div className="bg-blue-200 shadow-lg shadow-cyan-500/50 w-24  flex justify-center p-2 rounded-md ">
+        <div className=" shadow-lg shadow-cyan-500/50 w-24  flex justify-center p-2 rounded-md ">
           <a target="_blank" href="https://www.facebook.com/rboshri.mou/">
             {" "}
             <AiFillFacebook className=""></AiFillFacebook>
             <p>FaceBook</p>
           </a>
         </div>
-        <div className="bg-blue-200 shadow-lg shadow-cyan-500/50 w-24  flex justify-center p-2 rounded-md ">
+        <div className=" shadow-lg shadow-cyan-500/50 w-24  flex justify-center p-2 rounded-md ">
           <a
             target="_blank"
             href="https://www.linkedin.com/in/rabeya-boshri-mou/"
@@ -25,7 +25,7 @@ const Contact = () => {
             <p>Linkedin</p>
           </a>
         </div>
-        <div className="bg-blue-200 shadow-lg shadow-cyan-500/50 w-24  flex justify-center p-2 rounded-md ">
+        <div className=" shadow-lg shadow-cyan-500/50 w-24  flex justify-center p-2 rounded-md ">
           <a target="_blank" href="mailto:asheq.mou@gmail.com">
             <AiOutlineMail></AiOutlineMail>
             <p>Email</p>

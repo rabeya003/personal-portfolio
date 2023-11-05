@@ -9,24 +9,26 @@ const ProjectsLink = () => {
   }, []);
   return (
     <div id="projects" className="mb-12">
-      <h2 className="flex justify-center text-3xl font-bold">My Projects</h2>
+      <h2 className="flex justify-center text-3xl font-bold mb-12">
+        My Projects
+      </h2>
       <hr />
-      <div className="mt-4 px-16 grid grid-cols-2 lg:grid-cols-4 gap-6 overflow-x-scroll">
+      <div className="mt-4 px-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 ">
         {projects.map((project) => (
           <div key={project.id}>
-            <div className="card w-72 h-72 bg-base-100 shadow-xl">
+            <div className="card w-72 h-72 bg-base-100  shadow-2xl shadow-slate-700">
               <figure>
                 <img className="h-28" src={project.img} alt="Shoes" />
               </figure>
               <div className="card-body">
                 <h2 className="card-title">{project.title}</h2>
                 <div className="card-actions justify-end">
-                  <div className="badge badge-outline">
+                  <div className="badge   shadow-md shadow-cyan-500/50 p-4">
                     <a target="_blank" href={project.liveLink}>
                       Live Link
                     </a>
                   </div>
-                  <div className="badge badge-outline ">
+                  <div className="badge   shadow-md shadow-cyan-500/50 p-4">
                     <a target="_blank" href={project.repoLink}>
                       Repo Link
                     </a>
