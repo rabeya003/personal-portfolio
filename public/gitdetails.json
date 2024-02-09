@@ -8,11 +8,13 @@
     },
     {
       "id":2,
-      "title": "Phone-Hunter",
-      "img": "https://i.ibb.co/PNkXZLt/Screenshot-2023-11-04-031358.png",
-      "liveLink": "https://rabeya003.github.io/Phone-Hunter/",
-      "repoLink": "https://github.com/rabeya003/Phone-Hunter"
-    },
+      "title":"Car-Repair",
+      "img":"https://i.ibb.co/GR0rTVM/Screenshot-2023-12-16-180839.png",
+      "liveLink": "https://rabeya003.github.io/EdTech-website/",
+      "repoLink": "https://github.com/rabeya003/car-repair-client"
+
+    } ,
+   
     {
       "id":3,
       "title": "Weather-forecast",
@@ -22,6 +24,28 @@
     },
     {
       "id":4,
+      "title": "Wonderwave-Travel",
+      "img": "https://i.ibb.co/C7VqLgt/Screenshot-2023-12-16-181838.png",
+      "liveLink": "https://wanderwave-travel.web.app/",
+      "repoLink": "https://github.com/rabeya003/wonderwave-Travel-client"
+    },
+
+    {
+      "id":5,
+      "title": "Phone-Hunter",
+      "img": "https://i.ibb.co/PNkXZLt/Screenshot-2023-11-04-031358.png",
+      "liveLink": "https://rabeya003.github.io/Phone-Hunter/",
+      "repoLink": "https://github.com/rabeya003/Phone-Hunter"
+    }, 
+    {
+      "id":6,
+      "title": "ABC-News",
+      "img": "https://i.ibb.co/syJtB0h/Screenshot-2023-12-16-181605.png",
+      "liveLink": "https://the-news-dragon-client-nu.vercel.app/",
+      "repoLink": "https://github.com/rabeya003/the-news-abc-client"
+    },
+    {
+      "id":7,
       "title": "EdTech-website",
       "img": "https://i.ibb.co/WPnx6H1/Screenshot-2023-11-04-032228.png",
       "liveLink": "https://rabeya003.github.io/EdTech-website/",

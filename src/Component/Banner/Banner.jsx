@@ -6,8 +6,8 @@ const Banner = () => {
       <div className="hero-content flex-col lg:flex-row-reverse gap-10">
         <div className="relative">
           <img
-            src="https://i.ibb.co/QCrdK07/p-3-removebg-preview.png"
-            className="max-w-sm rounded-lg shadow-2xl"
+            src="https://i.ibb.co/MCvrdRC/32268.jpg"
+            className="max-w-sm rounded-lg shadow-2xl w-60"
           />
           {/*        <h2 className=" font-semibold text-gray-700 text-3xl">
             Rabeya Boshri

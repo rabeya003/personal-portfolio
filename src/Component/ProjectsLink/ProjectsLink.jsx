@@ -8,12 +8,12 @@ const ProjectsLink = () => {
       .then((data) => setProject(data));
   }, []);
   return (
-    <div id="projects" className="mb-12">
+    <div id="projects" className="mb-12 max-w-7xl mx-auto">
       <h2 className="flex justify-center text-3xl font-bold mb-12">
         My Projects
       </h2>
       <hr />
-      <div className="mt-4 px-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 ">
+      <div className="mt-4 px-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
         {projects.map((project) => (
           <div key={project.id}>
             <div className="card w-72 h-72 bg-base-100  shadow-2xl shadow-slate-700">
