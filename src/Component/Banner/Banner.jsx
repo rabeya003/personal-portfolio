@@ -1,6 +1,25 @@
 import { MdSimCardDownload } from "react-icons/md";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
+const pdf = "./Cv-of-Rabeya.pdf";
 const Banner = () => {
+  const downloadPDF = () => {
+    const iframe = document.createElement("iframe");
+    iframe.style.display = "none";
+    iframe.src = pdf;
+
+    iframe.onload = () => {
+      const doc = iframe.contentDocument || iframe.contentWindow.document;
+      const downloadLink = doc.createElement("a");
+      downloadLink.href = pdf;
+      downloadLink.download = "Cv-of-Rabeya.pdf";
+      doc.body.appendChild(downloadLink);
+      downloadLink.click();
+      doc.body.removeChild(downloadLink);
+      iframe.remove();
+    };
+
+    document.body.appendChild(iframe);
+  };
   return (
     <div className="hero min-h-screen ">
       <div className="hero-content flex-col lg:flex-row-reverse gap-10">
@@ -22,7 +41,10 @@ const Banner = () => {
             Let&apos;s turn your web ideas into reality!
           </p>
           <div className="flex gap-2">
-            <button className="bg-blue-200 shadow-lg shadow-cyan-500/50 w-24  flex justify-center p-2 rounded-md w-auto flex">
+            <button
+              className="bg-blue-200 shadow-lg shadow-cyan-500/50 w-24  flex justify-center p-2 rounded-md w-auto flex"
+              onClick={downloadPDF}
+            >
               Download CV{" "}
               <span>
                 <MdSimCardDownload className="text-2xl"></MdSimCardDownload>
